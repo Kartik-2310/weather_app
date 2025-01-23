@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-app">
+        <header>
+            <h1>Weather App</h1>
+            <input type="text" placeholder="Enter city name" id="city-input">
+            <button id="search-btn">Search</button>
+        </header>
+        <main>
+            <div class="weather-info">
+                <h2 id="city-name">City Name</h2>
+                <p id="temperature">Temperature: <span id="temp-value"></span>°C</p>
+                <p id="description">Description: <span id="desc-value"></span></p>
+                <p id="humidity">Humidity: <span id="humidity-value"></span>%</p>
+                <p id="wind">Wind Speed: <span id="wind-value"></span> km/h</p>
+            </div>
+        </main>
+        <footer>
+            <p>Powered by Kartik</p>
+        </footer>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
